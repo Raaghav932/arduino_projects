@@ -1,0 +1,18 @@
+{
+  "eventName": "awsEmail",
+  "url": "https://fb2t4mjxt9.execute-api.us-west-1.amazonaws.com/prod/email",
+  "requestType": "POST",
+  "headers": {
+    "x-api-key": "MQe5ifUmFLaFESxGWP4UO7z0cuo0Wjdt968B3y9x
+",
+    "Content-Type": "multipart/form-data; boundary=----              WebKitFormBoundary7MA4YWxkTrZu0gW"
+ },
+  "query": {
+    "Subject": "{{SPARK_EVENT_VALUE}}",
+    "Message": "{{SPARK_EVENT_VALUE}}",
+    "TopicArn": "arn:aws:sns:us-west-2:706205996625:Particle_test"
+  },
+  "mydevices": true,
+  "noDefaults": true
+}
+f

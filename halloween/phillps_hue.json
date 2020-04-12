@@ -1,0 +1,11 @@
+    {
+    "event": "hue_command",
+    "noDefaults":true,
+    "mydevices":true,	
+    "url": "http://api/N60WrQQSQaPWGTYykqMEdfejlU3cUVpzFpHg1mxO/lights/1/state",
+    "requestType": "PUT",
+    "json": {
+
+      "on": true
+    }
+}
